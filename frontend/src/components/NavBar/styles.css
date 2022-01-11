@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    background-color: var(--color-primary);
+    height: 3.75rem;
+    align-items: center;
+}
+
+header a p {
+    font-size: 12px;
+}
+
+.dsmovie-nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.dsmovie-nav-content h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.dsmovie-contact-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem ;
+  
+}
+
+p, h1{
+    margin: auto;
+}

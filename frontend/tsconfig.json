@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src", // ajuda a abstrair o caminho dos arquivos
     "target": "es5",
     "lib": [
       "dom",
