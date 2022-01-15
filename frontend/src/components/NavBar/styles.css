@@ -5,8 +5,28 @@ header{
     align-items: center;
 }
 
+h1{
+    transition: all 0.3s;
+}
+
+h1:hover{
+    transform: scale(1.08);
+    text-shadow: 0 0 5px black;
+}
+
+span{
+    color: rgb(243, 239, 17);
+    font-size: 2rem;
+}
+
 header a p {
     font-size: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header a:hover{
+    color: orange;
 }
 
 .dsmovie-nav-content{
